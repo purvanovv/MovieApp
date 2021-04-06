@@ -65,7 +65,7 @@ export default class App extends Component {
             searchValue={this.state.searchValue}
           />
         </div>
-        <div className="row">
+        <div>
           <MovieList
             movies={this.state.movies}
             favouriteComponent={AddFavourites}
@@ -76,7 +76,7 @@ export default class App extends Component {
         <div className="row d-flex align-items-center mt-4 mb-4">
           <MovieListHeading heading="Favourites" />
         </div>
-        <div className="row">
+        <div>
           <MovieList
             movies={this.state.favourites}
             favouriteComponent={RemoveFavourites}
